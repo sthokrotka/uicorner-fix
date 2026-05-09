@@ -1,0 +1,1 @@
+See [this post](https://devforum.roblox.com/t/critical-issue-uicorner-properties-reset-to-default-0-8-across-the-entire-project-after-a-session-synchronization-error/4621557/) for more information

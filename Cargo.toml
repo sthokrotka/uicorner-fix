@@ -1,0 +1,14 @@
+[package]
+name = "uicorner_fix"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rbx_dom_weak = "4.1"
+rbx_binary = "2.0"
+ustr = "1.1"
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
