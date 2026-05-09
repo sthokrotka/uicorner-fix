@@ -91,5 +91,5 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     rbx_binary::to_writer(out_file, &new_dom, new_dom.root().children())?;
 
     println!("Done!");
-    std::process::exit(0);
+    Ok(())
 }
